@@ -117,7 +117,7 @@ import ProductDetails from "./pages/ProductDetails";
 
 // 🚀 Add Login & Verify OTP pages
 import Login from "./pages/Login";
-import VerifyOtp from "./pages/VerifyOtp";
+// import VerifyOtp from "./pages/VerifyOtp";
 
 export default function App() {
   return (
@@ -167,7 +167,7 @@ export default function App() {
 
       {/* 🆕 AUTH ROUTES */}
       <Route path="/login" element={<Login />} />
-      <Route path="/verify-otp" element={<VerifyOtp />} />
+      {/* <Route path="/verify-otp" element={<VerifyOtp />} /> */}
 
     </Routes>
   );
