@@ -1,0 +1,40 @@
+# ============================================
+# Global ignores
+# ============================================
+node_modules/
+.env
+.env.local
+.env.development
+.env.production
+.DS_Store
+dist/
+build/
+tmp/
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================
+# Backend specific ignores
+# ============================================
+BackEnd/node_modules/
+BackEnd/.env
+BackEnd/uploads/
+BackEnd/dist/
+BackEnd/coverage/
+
+# Mongoose cache
+BackEnd/*.log
+
+# VSCode
+.vscode/
+
+# ============================================
+# Frontend specific ignores
+# ============================================
+FrontEnd/node_modules/
+FrontEnd/.env
+FrontEnd/dist/
+FrontEnd/.next/
+FrontEnd/out/
